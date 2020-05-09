@@ -29,10 +29,10 @@ const parseDeck = function(metadataYaml) {
   const _path = metadataYaml.replace(`${path.sep}metadata.yaml`, '');
   const [ _, lang ] = _path.split(path.sep);
   const metadata = parseMetadata(metadataYaml);
-  metadata.code = slugify(metadata.code);
+  const deckCode = `${lang}-${slugify(metadata.code)}`;
+  metadata.code = deckCode;
   const questions = parseTxt(`${_path}${path.sep}questions.txt`);
   const answers = parseTxt(`${_path}${path.sep}answers.txt`);
-  const deckCode = `${lang}-${metadata.code}`;
   const data = Object.assign(metadata, { lang },{ questions }, { answers });
   json.decks[deckCode] = data;
   writeToFile(deckCode, data);
