@@ -1,6 +1,8 @@
-# Decks
+# [Decks](https://buttons-against-humanity.github.io/decks/)
 
-This repo is a collection of decks I found in github.   
+https://buttons-against-humanity.github.io/decks/
+
+This repo is a collection of decks I found in github.    
 
 Most of them are from [crhallberg/json-against-humanity](https://github.com/crhallberg/json-against-humanity)
 
