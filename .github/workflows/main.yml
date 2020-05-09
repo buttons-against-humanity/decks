@@ -46,7 +46,8 @@ jobs:
         cp build/* .
         git status
         git add -A .
-        git commit -m "Auto Rebuild gh-pages\nRef #${GITHUB_SHA}"
+        git commit -m "Auto Rebuild gh-pages
+        Ref ${GITHUB_SHA}"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
