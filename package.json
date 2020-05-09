@@ -10,6 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "build": "npm run build-json && npm run build-html",
     "build-html": "node scripts/build-html.js",
     "build-json": "node scripts/build-json.js",
     "convert-decks": "node scripts/convert-to-yaml.js",
