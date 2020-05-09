@@ -23,6 +23,10 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+    - name: set git config
+      run: |
+        git config --global user.email $(git --no-pager log -1 -s --format="%ae")
+        git config --global user.name "${GITHUB_ACTOR}"
     - name: Use Node.js ${{ env.NODE_VERSION }}
       uses: actions/setup-node@v1
       with:
@@ -40,3 +44,7 @@ jobs:
       run: |
         rm -f *.json *.html
         cp build/* .
+    - name: commit and push
+      run: |
+        echo Should commit
+      if: ${{git status -s}}
