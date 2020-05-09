@@ -45,8 +45,8 @@ jobs:
         rm -f *.json *.html
         cp build/* .
         git status
-        echo git add *.json *.html
-        echo git commit -m "Rebuild after master commit\nRef #${GITHUB_SHA}"
+        git add -A .
+        git commit -m "Auto Rebuild gh-pages\nRef #${GITHUB_SHA}"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
