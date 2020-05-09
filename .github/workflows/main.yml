@@ -38,4 +38,4 @@ jobs:
     - name: clean up and copy generated files
       run: |
         rm -f *.json *.html
-        copy build/* .
+        cp build/* .
