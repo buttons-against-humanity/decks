@@ -35,6 +35,7 @@ const template = `
             <dl class="row mt-3 mb-0">
               <dt class="col-4 text-right">Questions: </dt><dd class="col-8 text-left">{{questions.length}}</dd>     
               <dt class="col-4 text-right">Answers: </dt><dd class="col-8 text-left">{{answers.length}}</dd>
+              <dt class="col-4 text-right">Language: </dt><dd class="col-8 text-left">{{lang}}</dd>
               {{#author}}
                 {{#url}}
                   <dt class="col-4 text-right">Author: </dt><dd class="col-8 text-left"><a class="text-light" href="{{{url}}}">{{author}}</a></dd>
