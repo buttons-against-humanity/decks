@@ -13,7 +13,7 @@
     "build": "npm run build-json && npm run build-html",
     "build-html": "node scripts/build-html.js",
     "build-json": "node scripts/build-json.js",
-    "convert-decks": "node scripts/convert-to-yaml.js",
+    "fix-metadata": "node scripts/fix-metadata.js",
     "remove-dots": "node scripts/remove-dots.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
