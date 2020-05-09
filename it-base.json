@@ -1,7 +1,9 @@
 {
- "code": "baseit",
+ "code": "it-base",
  "name": "Set Base (IT)",
- "official": false,
+ "official": true,
+ "author": "Cards Against Humanity",
+ "url": "https://www.cardsagainsthumanity.com/",
  "lang": "it",
  "questions": [
   "_ + _ = _",

@@ -1,7 +1,9 @@
 {
- "code": "cahe1it",
+ "code": "it-cah-e1",
  "name": "Espansione 1 (IT)",
- "official": false,
+ "official": true,
+ "author": "Cards Against Humanity",
+ "url": "https://www.cardsagainsthumanity.com/",
  "lang": "it",
  "questions": [
   "Mors tua, vita mea. _ tua, _ mea",
