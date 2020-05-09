@@ -4,6 +4,7 @@
   "description": "Buttons Agains Humanity Decks Tools",
   "dependencies": {
     "directory-tree": "^2.2.4",
+    "mustache": "^4.0.1",
     "slugify": "^1.4.0",
     "yaml": "^1.9.2"
   },
