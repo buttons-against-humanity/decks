@@ -26,6 +26,7 @@ const template = `
     <div class="container-fluid">
       <h1>Buttons Against Humanity Decks</h1>
       <h4>{{langs}} languages - {{expansions}} decks - {{questions}} questions - {{answers}} answers</h4>
+      <a href="full.json">Download all expansions</a>
       <div class="row">
       {{#decks}}
         <div class="col-12 col-md-6 col-lg-3 mb-3">
