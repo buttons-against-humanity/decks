@@ -1,7 +1,7 @@
 {
   "name": "@bah/decks",
   "version": "0.1.0",
-  "description": "Buttons Agains Humanity Decks Tools",
+  "description": "Buttons Against Humanity Decks Tools",
   "dependencies": {
     "directory-tree": "^2.2.4",
     "mustache": "^4.0.1",
@@ -10,6 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "build-html": "node scripts/build-html.js",
     "build-json": "node scripts/build-json.js",
     "convert-decks": "node scripts/convert-to-yaml.js",
     "remove-dots": "node scripts/remove-dots.js",
@@ -20,7 +21,9 @@
     "url": "git+https://github.com/buttons-against-humanity/decks.git"
   },
   "keywords": [
-    "bah"
+    "bah",
+    "buttons against humanity",
+    "cards against humanity"
   ],
   "author": "Michele (macno)",
   "license": "Apache-2.0",
