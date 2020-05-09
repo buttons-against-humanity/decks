@@ -31,7 +31,7 @@ const template = `
       {{#decks}}
         <div class="col-12 col-md-6 col-lg-3 mb-3">
           <div class="btn btn-dark p-4 w-100 h-100">
-            <h5>{{name}}</h5>
+            <h5>{{{name}}}</h5>
             <dl class="row mt-3 mb-0">
               <dt class="col-4 text-right">Questions: </dt><dd class="col-8 text-left">{{questions.length}}</dd>     
               <dt class="col-4 text-right">Answers: </dt><dd class="col-8 text-left">{{answers.length}}</dd>
